@@ -1,0 +1,26 @@
+{
+  "name": "loan-app",
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "shared/*"
+  ],
+  "scripts": {
+    "start": "yarn workspaces run start",
+    "dev": "yarn workspaces run dev",
+    "lint": "yarn workspaces run lint",
+    "format": "yarn workspaces run format",
+    "prepare": "husky"
+  },
+  "version": "1.0.0",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^9.10.0",
+    "husky": "^9.1.6",
+    "prettier": "^3.3.3"
+  },
+  "dependencies": {
+    "framer-motion": "^12.4.1",
+    "recharts": "2"
+  }
+}
